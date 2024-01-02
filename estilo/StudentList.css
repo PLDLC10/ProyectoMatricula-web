@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cuerpo{
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    background: #49494969;
+    border-radius: 5px;
+}
+body{
+    background: linear-gradient(100deg, green,yellow); 
+}
+
+header{
+    text-align-last: center;
+    padding: 20px;
+}
+.tabla{
+    margin: 1px;
+    padding: 5px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+.btn-box{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+.buscar{
+    height: 60px;
+}
+.btn{
+    margin: 5px;
+    padding: 15px;
+    margin-right: 100px;
+    background-color: white;
+}
+.buscador{
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    float: left;
+    
+}
+.control{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 200px;
+}

@@ -1,0 +1,91 @@
+html{
+    background: linear-gradient(100deg, green,yellow); 
+}
+body{
+    background: #49494969;
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+}
+#logo{
+    height: 300px;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+.logo-personas{
+    height: 300px;
+    width: 300px;
+}
+header{
+    text-align-last: center;
+}
+form{
+    width: 1000px;
+    height: 500px;
+}
+#lado2{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+#encuesta{  
+    float: left;
+    padding: 10px;
+    margin-left: 13%;
+    margin-top: 3%;
+    border-radius: 5px;
+    overflow: auto;
+    height: 400px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.45);
+}
+#encuesta::-webkit-scrollbar{
+    width: 5px;
+}
+#encuesta::-webkit-scrollbar-thumb{
+    background: white;
+}
+
+#btnCrear{
+    float: left;
+    padding: 10px;
+    height: 100px;
+    width: 100px; 
+}
+#btnCancelar{
+    float: right;
+    margin-right: 25px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+#btnEliminar{
+    float: right;
+    margin-right: 100px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.control{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.btn{
+    margin: 50px;
+    margin-left: 33%;
+    padding: 15px;
+}
+.alert-danger{
+    background-color: #FF866C;
+    width:170px;
+    height:10px;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius:5px;
+    color:#FA4720;
+    
+}
+.alert-danger-activo{
+    opacity:0;
+}

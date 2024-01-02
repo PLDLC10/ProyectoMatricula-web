@@ -1,0 +1,58 @@
+#UsuarioIndex.css
+/*
+body {
+    font-family: sans-serif;
+    margin: 0;
+     background-image: url('../ING_LOGO/fondo.png');
+    background: linear-gradient(green,blue); 
+    
+    background-size: 100%;
+}
+*/
+#body{
+    background-color: yellow
+}
+
+body{
+    background: linear-gradient(100deg, green,yellow); 
+}
+.cabecera{ 
+    justify-content: space-between;
+    background: #49494969;
+    text-align: center;  
+    height: 125px; 
+}    
+.logo-img{
+    height: 70px;
+    margin-right: 50px;
+}
+.logo-personas{
+   height: 70px;  
+}
+.form{
+    width: 100px;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.cuerpo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+}
+form .username{
+    padding: 10px;  
+}
+form .contraseña{    
+    padding: 10px;
+}
+form .registrarse{
+    padding: 10px;
+}

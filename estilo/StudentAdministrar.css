@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(100deg, green,yellow); 
+}
+.cuerpo{
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    background: #49494969;
+}
+header{
+    text-align-last: center;
+    padding: 20px;
+}
+.tabla{
+    margin: 1px;
+    padding: 5px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+.btn-box{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+    padding: 15px;
+}
+.buscador{
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.control{
+    padding: 10px;
+}
